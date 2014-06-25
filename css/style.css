@@ -1,0 +1,26 @@
+#wrapper {
+	height: 5rem
+    overflow: hidden; /* so the size of the wrapper is alway the size of the longest content */
+}
+#first {
+    float: left;
+    width: 15%;
+}
+#second {
+    margin: 0 0 0 0px; /* considering the border you need to use a margin so the content does not float under the first div*/
+}
+
+#listtask {
+	height: 7rem
+    overflow: hidden; /* so the size of the wrapper is alway the size of the longest content */
+    border-bottom:thin groove #333333;
+}
+#first2 {
+    float: left;
+    width: 80%;
+    }
+#second2 {
+	float: left;
+    margin: 0 0 0 0px; /* considering the border you need to use a margin so the content does not float under the first div*/
+    width: 20%
+}
